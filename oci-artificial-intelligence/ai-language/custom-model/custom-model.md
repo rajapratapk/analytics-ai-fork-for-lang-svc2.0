@@ -105,7 +105,7 @@ A Project is a way to organize multiple models in the same workspace. Follow bel
     4. **Choose model type**: Choose  Named entity recognition for model type.
 
         ![Model type](./images/ner-model-type.png " ")
-    5. **Specify training dataset details**: *Choose existing labeled dataset* and *Object Storage* under training data section. Choose the bucket created in previous step and choose CNER\_offer\_trainset\_01\_labels.jsonl as training data set. Skip Validation data and Test data to default values, so that the system chooses random samples from train set.
+    5. **Specify training dataset details**: *Choose existing labeled dataset* and *Object Storage* under training data section. Specify the bucket name and data file created in previous step for e.g. {folder name}/01\_labels.jsonl as training data set. Skip Validation data and Test data to default values, so that the system chooses random samples from train set.
 
         ![Training data](./images/ner-training-data.png " ")
 
